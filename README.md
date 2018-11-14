@@ -17,7 +17,7 @@ after installing packeges , goto Server folder and run the below command (this w
 
 keep in open let server is on
 
-goto client folder 
+goto client folder  open a new terminal and enter below command
 
 <b>npm start</b>
 
