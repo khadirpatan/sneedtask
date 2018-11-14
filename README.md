@@ -1,13 +1,12 @@
 # sneedtask
-after Dowloading you will get a folder with 2 subfolders.(client and Server)..
+After Dowloading you will get a folder with 2 subfolders.(client and Server)..
 
 open terminal in client folder and run below command (It will install all the node_modules which are mentioned as dependencis
-You should have installed node & npm in your system to complete this action.
+You should have installed node & npm in your system to complete this action.)
 
-open cleint folder and enter following command.
 <b>npm install</b> 
 
-open another new terminal in server folder
+open another new terminal in server folder. run below command.
 
 <b>npm install</b>
 
@@ -26,7 +25,7 @@ you can check my app at localhost:3000
 
 ***Note***:
 
-<b>Beacuse cilent and server are running in the same system it might thorw following error in the client console.
+<b>Beacuse cilent and server are running in the same system it might thorw following error in the client browser console.
 
 <i>Access to XMLHttpRequest at 'http://localhost:9090/' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.</i>
 
