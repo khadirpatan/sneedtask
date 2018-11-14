@@ -6,17 +6,18 @@ open terminal in client folder and run below command (It will install all the no
 <b>npm install</b> 
 
 open terminal in server folder
-npm install
+
+<b>npm install</b>
 
 
 after installing packeges , goto Server folder and run the below command (this will run the server and connect to mongoDB)
 
-node index.js 
+<b>node index.js </b>
 
 keep in open let server is on
 
 goto client folder 
 
-npm start
+<b>npm start</b>
 
 you can check my app at localhost:3000
