@@ -2,6 +2,7 @@
 after Dowloading you will get a folder with 2 subfolders.(client and Server)..
 
 open terminal in client folder and run below command (It will install all the node_modules which are mentioned as dependencis
+//You should have installed node & npm in your system mto complete this action
 
 <b>npm install</b> 
 
