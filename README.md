@@ -24,10 +24,11 @@ goto client folder  open a new terminal and enter below command
 
 you can check my app at localhost:3000
 
-***Note***
-<b>Beacuse cilent and server are running in the same system it might thorw folling error in the client console
-Access to XMLHttpRequest at 'http://localhost:9090/' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-  <a>https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en</a>
+***Note***:
+
+<b>Beacuse cilent and server are running in the same system it might thorw following error in the client console.
+<i>Access to XMLHttpRequest at 'http://localhost:9090/' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.</i>
  to resolve this issue please istall following extension in the chrome browser and on the "Enable cross-origin resource sharing" toggle.
   refresh the app it will run.
+  <a>https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en</a>
 </b>
