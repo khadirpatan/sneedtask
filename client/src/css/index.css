@@ -24,9 +24,7 @@ font-weight: bold;
 }
 #table{
     padding-top:10px;
-    width:80%
 }
-
 #modal{
         position: fixed;
         z-index: 1;
@@ -49,4 +47,48 @@ font-weight: bold;
 
 #buttons{
     text-align: right;
+}
+@media screen and (min-width:411px ) and (max-width:767px){
+    
+
+    #modalContent{
+        background-color: #fefefe;
+        margin: auto;
+        padding:20px;
+        border-radius: 0.5vw;
+        width:60vw;
+    }
+
+}
+
+
+@media screen and (min-width:260px ) and (max-width:411px){
+    
+ 
+    #header{
+        height:65px;
+        width:468px;
+        background-color:black;
+    }
+    #modalContent{
+        background-color: #fefefe;
+        margin: auto;
+        padding:20px;
+        border-radius: 0.5vw;
+        width:80vw;
+    }
+    }
+    @media screen and (max-width:260px ){
+        #header{
+            height:65px;
+            width:468px;
+            background-color:black;
+        }
+        #modalContent{
+            background-color: #fefefe;
+            margin: auto;
+            padding:20px;
+            border-radius: 0.5vw;
+            width:80vw;
+        }
 }

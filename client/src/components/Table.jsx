@@ -3,6 +3,7 @@ import Modal from "./Modal";
 import Pagination from "./Pagination"
 import axios from "axios";
 import _ from 'lodash';
+import url from '../utils/getURL';
 class Table extends Component {
     constructor(props) {
         super(props);
@@ -15,7 +16,9 @@ class Table extends Component {
         }
     }
     async componentDidMount() {
-        const data = await axios.get("http://localhost:9090/");
+        console.log(process.env);
+        
+        const data = await axios.get(url());
         this.setState({ workSpaceData: data.data })
 
     }
